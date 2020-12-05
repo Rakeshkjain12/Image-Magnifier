@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoom Effect Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.exzoom.css">
+    <link rel="stylesheet" type="text/css" href="css/styleForZoomEffect.css">
+</head>	
+<body>
+	<div class="zoom" id="zoom">
+  <!-- Images -->
+  <div class="zoom_img_box">
+    <ul class='zoom_img_ul'>
+      <li><img src="images/1.jpg"/></li>
+      <li><img src="images/2.jpg"/></li>
+      <li><img src="images/3.jpg"/></li>
+      <li><img src="images/4.jpg"/></li>
+      <li><img src="images/5.jpg"/></li>
+      ...
+    </ul>
+  </div>
+  <!-- <a href="https://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a> Nav-->
+  <div class="zoom_nav"></div>
+  
+</div>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery.zoom.js"></script>
+<script type="text/javascript">
+	$(function(){
+
+  $("#zoom").exzoom({
+      "autoPlay": false
+  });
+
+});
+</script>
+</body>
+</html>
+
+
+<!-- https://www.youtube.com/watch?v=rc234iKr_r8 -->
