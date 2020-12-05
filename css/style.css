@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#zoom{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	transform: translate(-50%,-50%);
+	width: 500px; 
+}
